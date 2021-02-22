@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo-login{
+    width: 100%;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background: rgb(238, 236, 236);
+}
+
+#logo{
+    margin-left: 100px;
+    width: 570px;
+    margin-top: 70px;
+}
+
+h1{
+      font-size: 30px; 
+      width: 600px; 
+      font-weight:normal;
+}
+
+
+#login{
+    width: 350px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 5px 4px 1px rgb(196, 191, 191);
+}
+
+input{
+    width: 95%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+#login button{
+    width: 95%;
+    margin-top: 30px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: thin;
+}
+
+a{
+    text-decoration: none;
+    padding-left: 150px;
+    color: #1877f2;
+    /* border-bottom: solid black; */
+    
+}
+#click{
+    width: 50%;
+    margin-left: 100px;
+}
+
+#click button{
+    background: rgb(3, 175, 3);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    height: 40px;
+}
+
+#login p{
+    font-size: 14px;
+    margin-left: 0px;
+    padding-left: 60px;
+}
+
+.two a{
+    font-weight: bold;
+    padding-left: 0px;
+}
+
+.two a:hover{
+text-decoration: underline;
+}
+
+
+#link1{
+    width: 80%;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+#link1 a{
+    padding-left: 10px;
+    color: rgb(146, 143, 143);
+    font-size: 14px;
+}
+
+#link1 a:hover{
+    text-decoration: underline;
+}
+#link2{
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+#link2 a{
+    padding-left: 15px;
+    color: rgb(146, 143, 143);
+    font-size: 14px;
+}
+
+#link2 a:hover{
+    text-decoration: underline;
+}
+.footer p{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+@media screen and (max-width:1000px){
+    #logo-login{
+        width: 100%;
+        display:block;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        background: rgb(238, 236, 236);
+    }
+    
+    #logo{
+        margin-left: 40px;
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    
+    h1{
+          font-size: 25px; 
+          width: 100%; 
+          font-weight:normal;
+    }
+
+    #login{
+        width: 90%;
+        margin-left: 15px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    #login p{
+        padding-bottom: 80px;
+        padding-left: 30px;
+    }
+    #link1{
+        width: 80%;
+        margin-left: 30px;
+    }
+
+    #link2{
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#link1 a{
+   font-size: 12px;
+}
+
+#link2 a{
+    font-size: 12px;
+ }
+
+ a{
+    padding-left: 100px;
+    
+}
+#click{
+    width: 50%;
+    margin-left: 80px;
+}
+
+#click button{
+    color: white;
+}
+    
+}
